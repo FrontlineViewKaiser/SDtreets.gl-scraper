@@ -24,7 +24,6 @@ app.post("/drone-data", async (req, res) => {
   ) {
     return res.status(400).send("Invalid drone data received");
   }
-  debugger;
   try {
     const imageBase64 = await captureScreenshot(droneData);
     console.log("Screenshot captured successfully");
@@ -79,4 +78,4 @@ async function captureScreenshot(droneData) {
 //# Частоту потрібно регулювати, відправляючи запити з клієнтської сторони
 //# Пам'ятайте, що продуктивність може бути жахливою. Це не дуже ефективний інструмент
 //# Можливо, існує спосіб зробити це за допомогою "History API", якщо ви побудуєте це як клієнтську сторону. Однак, тоді "Puppeteer" не буде використовуватися
-//# Я не "повноцінний розробник". Дивіться на цей код із скептицизмом
+//# Я не "Back-end Developer". Дивіться на цей код із скептицизмом
