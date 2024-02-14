@@ -1,0 +1,17 @@
+{
+  "name": "sdtreets.gl-scraper",
+  "version": "1.0.0",
+  "description": "This work is licensed under a Creative Commons Attribution-NonCommercial 4.0 International License - see the [license.md](LICENSE.md) file for details.",
+  "main": "continuous-approach.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.20.2",
+    "cors": "^2.8.5",
+    "express": "^4.18.2",
+    "puppeteer": "^22.0.0"
+  }
+}
